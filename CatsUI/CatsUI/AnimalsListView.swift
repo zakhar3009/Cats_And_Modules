@@ -32,7 +32,6 @@ struct AnimalsListView: View {
                 }
                 .accessibilityIdentifier("AnimalsList")
                 .navigationTitle("\(animal == .cat ? "Cats" : "Dogs") List")
-                
                 Button(action: {
                     Crashlytics.crashlytics().setCustomValue("CRASH_REASON",forKey: "fatal error")
                     fatalError("Error was triggered")
