@@ -1,0 +1,37 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+platform :ios do
+  lane :build_and_export do
+    increment_version_number_in_plist( 
+    version_number: '1.1',   
+    xcodeproj: './CatsUI/CatsUI.xcodeproj',
+    target: "CatsUI",
+    plist_build_setting_support: true,
+   )
+    gym
+    firebase_app_distribution(app: "1:484490574496:ios:f00ac60790b650c19fa7c5",
+      firebase_cli_token: "1//093BIBMVwXbM7CgYIARAAGAkSNwF-L9Ir__W8lSY8hykqRHvyg9EbCGw3gG6tty89osLjhee9Gt2iapkNogB00Qm60D6StqAdrlw",
+      ipa_path: "./output/CatsAndModules.ipa",
+      release_notes: "Some notes",
+      testers: "o.frankiv@ukma.edu.ua, zakhlit@gmail.com",
+      debug: true)
+  end
+
+  lane :take_screenshots do 
+    capture_ios_screenshots
+  end
+end
