@@ -22,6 +22,12 @@ platform :ios do
     target: "CatsUI",
     plist_build_setting_support: true,
    )
+    enable_automatic_code_signing(
+      path: "./CatsNetworking/CatsNetworking.xcodeproj"
+    )
+    enable_automatic_code_signing(
+      path: "./CatsUI/CatsUI.xcodeproj"
+    )
     gym(xcargs: "-allowProvisioningUpdates")   
     firebase_app_distribution(app: "1:484490574496:ios:f00ac60790b650c19fa7c5",
       firebase_cli_token: "1//093BIBMVwXbM7CgYIARAAGAkSNwF-L9Ir__W8lSY8hykqRHvyg9EbCGw3gG6tty89osLjhee9Gt2iapkNogB00Qm60D6StqAdrlw",

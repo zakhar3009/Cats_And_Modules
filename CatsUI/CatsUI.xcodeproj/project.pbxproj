@@ -509,7 +509,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CatsUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 8VWX434V59;
+				DEVELOPMENT_TEAM = 52LXM6K854;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CatsUI/Info.plist;
@@ -522,9 +522,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.litvinchuk.Cats-And-Modules";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litvinchuk.CatsAndModules;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -546,7 +546,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CatsUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 8VWX434V59;
+				DEVELOPMENT_TEAM = 52LXM6K854;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CatsUI/Info.plist;
@@ -559,9 +559,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.litvinchuk.Cats-And-Modules";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litvinchuk.CatsAndModules;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
