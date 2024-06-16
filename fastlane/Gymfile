@@ -18,7 +18,5 @@ output_name("CatsAndModules")
 export_options({
   method: "development",
   thinning: "<thin-for-all-variants>",
-  provisioningProfiles: {
-      "ua.edu.ukma.apple-env.litvinchuk.CatsAndModules" => "d1afd3ae-a3cf-4001-8d42-fbd9130b8b39"
-    }
+  signingStyle: "automatic"
 })

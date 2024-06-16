@@ -27,7 +27,6 @@ class AnimalsListViewModel: ObservableObject {
         }
         return nil
     }
-    
     init(animal: Animal) {
         Task {
             let cats = await getAnimals(animal: animal)
