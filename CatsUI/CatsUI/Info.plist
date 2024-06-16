@@ -4,8 +4,6 @@
 <dict>
 	<key>Animals</key>
 	<string>CATS</string>
-	<key>CFBundleShortVersionString</key>
-	<string>$(MARKETING_VERSION)</string>
 	<key>CrashAnalyticsUsageDescription</key>
 	<string>To identify and fix issues more effectively</string>
 </dict>
