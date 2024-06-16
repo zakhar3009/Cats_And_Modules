@@ -20,6 +20,7 @@ struct AnimalView: View {
         self.animal = animal
         self.catImage = catImage
     }
+    
     var body: some View {
         WebImage(url: catImage.link)
             .resizable()
